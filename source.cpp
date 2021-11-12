@@ -2,6 +2,7 @@
 using namespace std;
 int tong(int a, int b);
 int hieu(int a, int b);
+int tich(int a,int b);
 
 int main()
 {
@@ -16,6 +17,7 @@ int main()
 
 	cout << "a - b = " << a - b << endl;
 	cout << "a + b = " << a + b << endl;
+	cout <<"a * b = " << a * b << endl;
 
 	system("pause");
 	return 0;
